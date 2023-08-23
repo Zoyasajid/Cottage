@@ -18,7 +18,7 @@ function Homepage3() {
           </div>
             <div className='text'>
                 <h2>Meal plans are easy to manage</h2>
-<p>Cottage lets your customers buy meals from you one at a time, or buy meal plans from you. When customers sign up for one of your plans, Cottage will keep track of which plan they have and how much of it they've used. At checkout time, customers will automatically have their plan applied to their purchases.</p>       
+<p><span>Cottage</span> lets your customers buy meals from you one at a time, or buy meal plans from you. When customers sign up for one of your plans, Cottage will keep track of which plan they have and how much of it they've used. At checkout time, customers will automatically have their plan applied to their purchases.</p>       
      {/* <button className='btn1'>GET STARTED</button> */}
             {/* <button className='btn2'>LEARN MORE</button> */}
             </div>

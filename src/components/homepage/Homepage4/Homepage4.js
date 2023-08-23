@@ -16,7 +16,7 @@ function Homepage4() {
 <div className='homepage2text'>
 <h2>Schedule your menu items </h2>
 <p>
-    Use Cottage whether you're an occasional meal prep company or a multi-location enterprise, you can use schedules to make menu items only available on certain days. Also use schedules to set a deadline for ordering.</p>
+    Use <span>Cottage</span>e whether you're an occasional meal prep company or a multi-location enterprise, you can use schedules to make menu items only available on certain days. Also use schedules to set a deadline for ordering.</p>
 </div>
 <div className='homepage2dots'>
     <img src={dots} alt='dots'/>

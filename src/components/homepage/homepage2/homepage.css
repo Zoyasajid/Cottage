@@ -79,8 +79,12 @@ text-align: left;
     }
     .list{
         width: 100%;
-    height: auto;
+    height: 800px;
     
+    }
+    span{
+        color: #FB775A;
+        font-weight: 700;
     }
     .homepage2text{
         margin-top: 20px;

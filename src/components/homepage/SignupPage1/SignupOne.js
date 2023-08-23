@@ -19,7 +19,7 @@ function SignupOne() {
           </div>
             <div className='text'>
               <h2>Take your meal prep company to the next level</h2>
-              <p>Cottage will help you reach more customers and simplify managing your site, your menus, and your orders, letting you focus on delivering great food.</p>
+              <p><span>Cottage</span> will help you reach more customers and simplify managing your site, your menus, and your orders, letting you focus on delivering great food.</p>
             <button className='btn1'>GET STARTED</button>
             <button className='btn2'>LEARN MORE</button>
             </div>

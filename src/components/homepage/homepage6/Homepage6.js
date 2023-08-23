@@ -11,7 +11,7 @@ function Homepage6() {
     <div className='Homepage6flex'>
     <div className='Homepage6text'>
       <h2>Track your business performance</h2>
-      <p>Use Cottage reports to figure out which menu items are selling the best and who your most frequent customers are</p>
+      <p>Use <span>Cottage</span> reports to figure out which menu items are selling the best and who your most frequent customers are</p>
     <button>GET STARTED</button>
     <div className='Homepage6pic'><img src={pic} alt='pic'/></div>
     

@@ -15,7 +15,7 @@ function Homepage() {
 </div>
 <div className='homepage2text'>
     <h2>Offer your menu the way you want</h2>
-    <p>Use Cottage to set up a menu and decide which items are available on which days. Create different locations for your meal prep company to manage them separately. Offer your customers discount codes with a few clicks.</p>
+    <p>Use <span>Cottage</span>to set up a menu and decide which items are available on which days. Create different locations for your meal prep company to manage them separately. Offer your customers discount codes with a few clicks.</p>
 </div>
 <div className='homepage2dots'>
     <img src={dots} alt='dots'/>
