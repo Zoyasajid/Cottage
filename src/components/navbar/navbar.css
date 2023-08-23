@@ -35,20 +35,37 @@ border: none;
 
     margin-right: 18px;
     Width:160px;
-    /* margin-top: 28px; */
+
     height:46px;
+    text-align: center;
     Left:1670px;
-    border: 1px solid grey;
+
     border-radius:4px;
     Border: 1px;
-    padding: 19px;
+    /* padding: 19px; */
 
 }
 @media (max-width: 768px) {
     .logo{
         width: 150px;
         height: 100px ;
-        padding: 21px;
+        padding: 26px;
+    
+    }
+    .navbtn{
+
+        margin-right: 18px;
+        Width:100px;
+    
+        height:46px;
+        text-align: center;
+        Left:1670px;
+        border: 1px solid grey;
+    
+        border-radius:4px;
+        Border: 1px;
+        font-weight: 700;
+        /* padding: 19px; */
     
     }
 }
