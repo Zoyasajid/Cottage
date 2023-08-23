@@ -7,16 +7,20 @@
     align-items: center;
 } */
 .navbar {
+    position: fixed;
+  
+     z-index: 1; 
     overflow: hidden;
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color: #fff;
     display: flex;
     /* justify-content: space-between; */
 align-items: center;
     width: 100%;
-    height: 15vh;
-
+    height: 10vh;
+    /* margin-top: 8px; */
+border: none;
     justify-content: space-between;
 
   }
@@ -24,6 +28,7 @@ align-items: center;
     width: 200px;
     height: 122px ;
     padding: 29px;
+    
 
 }
 .navbtn{

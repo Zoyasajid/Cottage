@@ -38,6 +38,10 @@ function Signup() {
   return (
 <>
 {/* <NAvbar/> */}
+{/* <div className='all'>
+  <NAvbar/> */}
+  <NAvbar/>
+
 <PageSlides
             enableAutoScroll={true}
             transitionSpeed={1000}
@@ -47,6 +51,7 @@ function Signup() {
                 type: SlideParallaxType.reveal
             }}
         />
+        {/* </div> */}
 {/* <div className='all'>
 <NAvbar/>
 <SignupOne/>
@@ -55,7 +60,8 @@ function Signup() {
 <Homepage4/>
 <Homepage5/>
 <Homepage6/>
-</div> */}
+</div> */
+}
 </>  )
 }
 

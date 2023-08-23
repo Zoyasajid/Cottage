@@ -11,6 +11,9 @@ const navigate = useNavigate('')
     const [password, setPassword] = useState('');
     const [address, setAddress] = useState('');
 
+    const verify=()=>{
+        navigate('/verify')
+    }
     const signin=()=>{
         navigate('/signin')
     }
@@ -73,7 +76,7 @@ const navigate = useNavigate('')
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}
                                     />
-                                    <button className='signbutton' type="submit">Sign Up Now</button>
+                                    <button className='signbutton' type="submit" onClick={verify}>Sign Up Now</button>
                                 </form>
                                 <p className='terms'>By continuing, I agree to Cottage’s <span>Terms & Conditions.</span></p>
                             <div className='connect'>

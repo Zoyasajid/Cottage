@@ -17,16 +17,19 @@ import {
 } from "react-router-dom";
 import Forgetpswd from './components/Signin/Forgetpswd/Forgetpswd';
 import NAvbar from './components/navbar/NAvbar';
+import Verify from './components/signupForm/Verification/Verify';
 function App() {
   return (
     <div>
-      {/* <NAvbar/> */}
   <BrowserRouter>
+      {/* <NAvbar/> */}
       <Routes>
       {/* <Route path="/" element={<Forgetpswd/>}/> */}
 
+      {/* <Route path="/" element={<Verify/>}/> */}
       <Route path="/" element={<Signup/>}/>
       <Route path="/forgetpassword" element={<Forgetpswd/>}/>
+      <Route path="/verify" element={<Verify/>}/>
       {/* <Route path="/page2" element={<Homepage3/>}/>
       <Route path="/page3" element={<Homepage5/>}/>
       <Route path="/page4" element={<Homepage6/>}/> */}

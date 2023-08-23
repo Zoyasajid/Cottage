@@ -5,11 +5,14 @@
     background-image: url('./pics/bg\ \(2\).png');
     height:100vh;
     background-position: center;
+    margin-top: 70px;
+
     background-size: cover;
+
 }
 .list{
     width: 821px;
-height: 610px;
+height: 700px;
 
 }
 .homepageflex{

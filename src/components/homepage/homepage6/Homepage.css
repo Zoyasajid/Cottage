@@ -4,6 +4,7 @@
     width: 100%;
     /* background-image: url('./pics/bg\ \(2\).png'); */
     height:100vh;
+    margin-top: 77px;
     background-position: center;
     background-size: cover;
 }
