@@ -1,0 +1,18 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  width: 100%;
+  height: auto;
+  /* height: calc(100% - 20px) */
+  /* margin: 10px; */
+  /* background-color: aqua; */
+  /* overflow-y: hidden; */
+}
+/* .all{
+  /* overflow-y: hidden; */
+/* }  */

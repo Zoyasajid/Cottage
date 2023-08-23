@@ -1,0 +1,182 @@
+.SignupOne{
+    /* border: 2px solid saddlebrown; */
+    background-color: #F37357;
+    background-image: url('../../pic/bg-white.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+margin-top: 14px;
+
+}
+.SignupOneflex{
+    display: flex;
+  
+}
+.home{
+    margin-top: -51px;
+width: 821px;
+height: 670px;
+}
+.dot{
+    height: 30%;
+    margin-top: 15%;
+/* width: 10%; */
+margin-right:19px ;
+
+}
+.dot2{
+    width: 100%;
+}
+.Dots{
+    margin-top: 90px;    
+Width:160.08px;
+Height:414.13px;
+Top:332.94px;
+Left:137.36px
+}
+.dots{
+    height: 64vh;
+
+}
+.text{
+    height: 412px;
+    width: 470px;
+
+    margin-left:90px;
+    margin-right: -44px;
+margin-top:90px;
+}
+.text h2{
+color: #192E46;
+font-weight: 800;
+font-Size:48px;
+Line-height:58px
+}
+.text p{
+color: #4C6889;
+/* #4C6889 */
+font-size: 18px;
+font-weight: 400;
+margin-top: 40px;
+line-height: 18px;
+/* letter-spacing: 0em; */
+text-align: left;
+
+}
+.text button{
+    width: 220px;
+    font-weight: 800;
+    margin-top: 40px;
+  
+    height: 56px;
+    top: 734px;
+    left: 405px;
+    border-radius: 4px
+    
+
+}
+.btn1{
+    background-color: #F37357;
+    /* font-family: Poppins; */
+font-size: 18px;
+font-weight: 600;
+color: white;
+line-height: 28px;
+letter-spacing: 0.01em;
+text-align: center;
+
+}
+.btn2{
+        margin-left:15px ;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        
+}
+@media (max-width:760px) {
+    .SignupOneflex{
+        display: block;
+    }
+    .Dots{
+        display: none;
+    }
+    /* .pic-dot{
+        display: flex;
+    } */
+    .SignupOne{
+        width: 98%;
+        height: auto;
+        /* background-color: #4C6889; */
+    margin-top: 1px;}
+    .text{
+        height: auto;
+        width: 100%;
+        margin-left:2px;
+   margin-right: 0px;
+    margin-top:30px;
+    }
+    .text h2{
+    color: #192E46;
+    font-weight: 800;
+    font-Size:34px;
+    text-align:start;
+    Line-height:46px;
+    text-align: center;
+    }
+    .text p{
+    color: #4C6889;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    text-align: center;
+    line-height: 20px;
+
+    /* text-align: left; */
+    
+    }
+    .text button{
+        width: 98%;
+        font-weight: 800;
+        margin-top: 14px;
+        margin-left: 5px;
+        height: 56px;
+        /* top: 734px; */
+        /* left: 405px; */
+        border-radius: 4px
+        
+    
+    }
+    .btn1{
+        background-color: #F37357;
+        /* font-family: Poppins; */
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    
+    }
+    .btn2{
+            margin-left:-1px ;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            
+    }
+    .home{
+        margin-top: 31px;
+        margin-left: -9px;
+    width: 100%;
+    /* height: 780px; */
+    height: auto;
+    }
+    .dot{
+        display: none;
+    }
+}

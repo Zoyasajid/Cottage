@@ -1,0 +1,303 @@
+.signUpContent{
+    width: 100%;
+    /* height: 100vh; */
+     background-color: #F37357;
+    background-image: url('./SignIn-pic/bg\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+
+.signUpForm{
+   display: flex;
+   align-items: center;
+   justify-content:space-evenly;
+   flex-direction: column;
+}
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+height: 600px;
+flex-shrink: 0;
+/* background:#00ACEE; */
+
+box-shadow: 0px 19.75px 70px 0px rgba(0, 0, 0, 0.09);
+}
+.form{
+    width: 460px;
+    /* background-color: #192E46; */
+height: 510px;
+flex-shrink: 0;
+border: 1px solid #D4D7DD;
+box-shadow: 0px 19.75px 70px 0px rgba(0, 0, 0, 0.09);
+
+
+}
+.signIn{
+    width: 223px;
+height: 40px;
+flex-shrink: 0;
+border: 1px solid #D4D7DD;
+background: #FAFAFA;
+color: #192E46;
+text-align:center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.36px;
+}
+.signUps{
+    width: 223px;
+    height: 40px;  
+    color: #192E46;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.36px;
+border: none;
+background: none;
+}
+.feild{
+    margin: 30px;
+    /* border: 2px solid black; */
+}
+.name{
+    width: 180.5px;
+    margin: 4px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #E0E4E9;
+background: #FFF;
+padding-left: 10px;
+color: #9AA6B4;
+text-align:start;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+
+}
+.email{
+    width: 367px;
+    margin: 2px;
+    margin-top: 15px;
+    padding-left: 10px;
+height: 39px;
+flex-shrink: 0;
+border-radius: 4px;
+/* border: 1px solid #FB775A; */
+background: #FFF;
+text-align:start;
+font-family: Poppins;
+font-size: 14px;
+}
+.address{
+    width: 367px;
+    margin: 4px;
+    margin-top: 15px;
+    padding-left: 10px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #E0E4E9;
+background: #FFF;
+text-align:start;
+font-family: Poppins;
+font-size: 14px;
+}
+.signLogo{
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.password{
+    width: 367px;
+    margin: 4px;
+    margin-top: 15px;
+    padding-left: 10px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #E0E4E9;
+background: #FFF;
+text-align:start;
+font-family: Poppins;
+font-size: 14px;
+}
+.signbutton{
+    width: 367px;
+    margin: 4px;
+    margin-top: 15px;
+height: 46px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #FB775A;
+border: none;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+}
+.terms{
+    color: #192E46;
+font-family: Poppins;
+font-size: 14px;
+margin: 4px;
+font-style: normal;
+font-weight: 400;
+line-height: 157.5%; /* 22.05px */
+letter-spacing: 0.14px;
+}
+.terms span{
+    color: #FB775A;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 157.5%;
+letter-spacing: 0.14px;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #9AA6B4;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 361.5%; /* 50.61px */
+letter-spacing: 0.28px;
+}
+.line{
+    width: 100px;
+height: 1px;
+flex-shrink: 0;
+margin: 10px;
+border-radius: 4px;
+background: #E0E4E9;
+}
+.fb-tweet{
+    margin: 4px;
+    margin-top: 3px;
+}
+.facebook{
+    width: 180px;
+height: 43px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #3B5998;
+border: none;
+color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+.twiter{
+    width: 180px;
+    height: 43px;
+    flex-shrink: 0;
+    margin-left: 20px;
+    border-radius: 4px;
+background: #00ACEE;
+border: none;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+
+    
+    
+    .password:hover{
+        border: 2px solid #F37357;
+    }
+    .name:hover{
+        border: 2px solid #F37357;
+    }
+    .address:hover{
+        border: 2px solid #F37357;
+    }
+  
+
+@media (max-width: 768px) {
+    .signUpContent {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    .formDiv,
+    .form {
+        width:95%; 
+        height: auto; 
+    }
+
+    .signIn,
+    .signUps,
+    .name,
+    .email,
+    .address,
+    .password,
+    .signbutton,
+    .terms {
+        width: 100%; 
+    }
+    .connect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        color: #9AA6B4;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 361.5%; /* 50.61px */
+    letter-spacing: 0.28px;
+    }
+    .line{
+        width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: 10px;
+    border-radius: 4px;
+    background: #E0E4E9;
+    }
+.connect{
+    margin-top:20px;
+    text-align:center;
+    line-height:normal;
+font-size: 14px;
+margin-bottom: 10px; 
+
+
+}
+
+    .facebook,
+    .twiter {
+        width: 100%; 
+        margin-left: 0;
+        margin-bottom: 10px; 
+    }
+
+}

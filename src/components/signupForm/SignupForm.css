@@ -1,0 +1,60 @@
+
+    .signin  {
+        margin: 33px;
+        margin-top: 42px; 
+        /* border: 2px solid black; */
+    }
+.op{
+    text-align: end;
+    margin-right: 20px; 
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.emailsignin{
+    height: 52px;
+    /* margin-top: 22px; */
+}
+
+
+.signInUP{
+    background-color: white;
+    height: 52px;
+    border: none;
+
+}
+.signupin{
+        width: 223px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #D4D7DD;
+    background: #FAFAFA;
+    color: #192E46;
+    text-align:center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    
+}
+@media (max-width:768px) {
+    /* .signupin{
+        width: 100%;
+    } */
+    .signloginBtns{
+display: flex;
+    }
+    .signloginBtns button{
+        width: 50%;
+    }
+.emailsignin{
+    width: 100%;
+}
+.op{
+    text-align: center;
+    margin-top: 21px;
+}
+
+}

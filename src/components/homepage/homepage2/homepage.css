@@ -1,0 +1,98 @@
+.homepage2{
+    /* background-image: url("./pics/bg\ \(2\).png"); */
+    background-color: #FB775A;
+    width: 100%;
+    background-image: url('./pics/bg\ \(2\).png');
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+.list{
+    width: 821px;
+height: 610px;
+
+}
+.homepageflex{
+    display: flex;
+}
+.homepage2text{
+margin-top: 170px;
+margin-left: -70px;
+}
+.homepage2text h2{
+font-size: 44px;
+font-weight: 800;
+line-height: 56px;
+text-align: left;
+color: #192E46;
+}
+.homepage2dots{
+    width: 40%;
+    margin-top: 50px;
+
+}
+.homepage2dot{
+
+    margin-top: 250px;
+
+    height: 21vh;
+
+    margin-right: 10px;
+}
+.homepage2text p{
+    /* font-family: Poppins; */
+font-size: 14px;
+margin-top: 40px;
+color: #4C6889;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+@media (max-width:760px){
+    .homepage2{
+        height: auto;
+    }
+    .homepageflex{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        /* border: 2px solid brown; */
+    }
+    .homepage2dots{
+        width: 40%;
+        margin-top: 50px;
+    display: none;
+    }
+    .homepage2dot{
+        display: none;
+
+        margin-top: 250px;
+    
+        height: 21vh;
+    
+        margin-right: 10px;
+    }
+    .list{
+        width: 100%;
+    height: auto;
+    
+    }
+    .homepage2text{
+        margin-top: 20px;
+        margin-left: 1px;
+        /* align-items: center; */
+        text-align: center;
+        }
+        .homepage2text h2{
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 56px;
+        text-align: center;
+        color: #192E46;
+        }
+        .homepage2text p{
+            text-align: center;
+        }
+}

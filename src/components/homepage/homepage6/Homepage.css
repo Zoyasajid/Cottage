@@ -1,0 +1,145 @@
+.Homepage6{
+    background-color: #FB775A;
+    background-image: url('./Homepage6pic/bg-white.png');
+    width: 100%;
+    /* background-image: url('./pics/bg\ \(2\).png'); */
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+.Homepage6text{
+    text-align: center;
+    /* display: flex; */
+    margin-left: 25%;
+    width: 50%;
+/* justify-content: center; */
+}
+.Homepage6text h2{
+    /* font-family: Poppins; */
+font-size: 45px;
+margin-top: 2px;
+font-weight: 800;
+line-height: 56px;
+/* width: 90%; */
+letter-spacing: 0em;
+/* width: 30%; */
+text-align: center;
+color: #192E46
+;
+
+
+}
+.Homepage6text p {
+    /* font-family: Poppins; */
+    margin-top: 12px;
+color: 4C6889;
+font-size: 20px;
+/* width: 120%; */
+font-weight: 550;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+
+
+
+}
+.Homepage6text button{
+    width: 225px;
+height: 52px;
+top: 429.98828125px;
+/* left: 832.5px; */
+margin-top: 12px;
+color: #fff;
+font-weight: 800;
+border-radius: 4px;
+background-color: #FB775A;
+
+}
+.Homepage6pic{
+    margin-left: -20%;
+    /* display: flex; */
+    /* justify-content: center; */
+/* align-items: center; */
+    /* height: 20vh; */
+}
+.Homepage6pic img{
+    /* height: 20%; */
+    height: 57vh;
+    width: 120%;
+}
+.Homepage6flex{
+    display: flex;
+}
+.Homepage6pic2{
+    width: 15px;
+height: 109.0234375px;
+/* top: 481.98828125px;
+left: 1877.5px; */
+border: 3px;
+margin-left: 22%;
+margin-top: 14%;
+
+/* background-color: #FB775A; */
+
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+@media (max-width:768px) {
+    .Homepage6flex{
+        display: block;
+    }
+    .Homepage6{
+        height: auto;
+    }
+    .Homepage6pic{
+        margin-left:1px;
+     
+    }
+    .Homepage6text{
+        text-align: center;
+        margin-left: -3px;
+        width: 100%;
+
+    }
+    .Homepage6text h2{
+
+    font-size: 35px;
+    margin-top: 2px;
+    font-weight: 800;
+    line-height: 56px;
+  
+    text-align: center;
+    color: #192E46
+    ;
+    
+    
+    }.Homepage6pic{
+        width: 100%;
+    }
+    .Homepage6pic2{
+        display: none;
+    }
+    .Homepage6pic{
+        margin-left: 2px;
+
+    }
+    .Homepage6text p {
+
+        margin-top: 2px;
+    
+    font-size: 15px;
+   
+    font-weight:600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    
+    
+    }
+    .Homepage6pic img{
+        height: 50vh;
+        width: 98%;
+}}
