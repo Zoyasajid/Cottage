@@ -9,6 +9,9 @@ function Verify() {
         // setShow(true)
         setinstruction("Code did not match, please try again")
     }
+    const handlecross=()=>{
+         setinstruction(false)
+    }
     return (
         <div className='forgetpswd'> 
         <div className='forget'>
@@ -25,10 +28,17 @@ Enter the code below to confirm your email address.
     </div>
     <div className='ib'>
     <input type='text' placeholder='Your one time six-digit code'/>
-    <button onClick={send}>Verify Now</button>
-    
+    {/* <button onClick={send}>Verify Now</button> */}
+    {instruction ? (
+                            <div>
+                                <button onClick={handlecross}>Cancel</button>
+                                <p>{instruction}</p>
+                            </div>
+                        ) : (
+                            <button onClick={send}>Send Instruction</button>
+                        )}
     </div>
-    <p>{instruction}</p>
+    {/* <p>{instruction}</p> */}
 
     <h5 className='verifyh5'>Question? <span>We are here to help</span></h5>
     </div>

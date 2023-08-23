@@ -3,6 +3,7 @@ import logo from './Forgetpic/LOGO (1).png'
 import './Forgetpswd.css'
 import {useNavigate } from 'react-router-dom';
 function Forgetpswd() {
+
     const navigate=useNavigate('')
     const signin=()=>{
         navigate('/signin')
@@ -12,7 +13,9 @@ function Forgetpswd() {
     }
     const [instruction,setinstruction]= useState('')
     // const [show ,setShow]=useState(true)
-
+  const handlecross=()=>{
+         setinstruction(false)
+    }
     const send=(e)=>{
     e.preventDefault();
     // setShow(true)
@@ -27,10 +30,15 @@ function Forgetpswd() {
 <div className='formforget'>
 <h2>Forget Password</h2>
 <input type='text' placeholder='Email Address'/>
-<button onClick={send}>Send Instruction</button>
-{/* <button onClick={send}>Send Instruction<span onClick={olp}>✖</span></button> */}
-
-<p>{instruction}</p>
+{instruction ? (
+                            <div>
+                                <button onClick={handlecross}>Cancel</button>
+                                <p>{instruction}</p>
+                            </div>
+                        ) : (
+                            <button onClick={send}>Send Instruction</button>
+                        )}
+    {/* </div> */}
 {/* {instruction} */}
 <div className='forgetlist'>
     <h3 onClick={signin}>Sign In</h3>
