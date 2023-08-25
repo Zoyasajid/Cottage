@@ -37,11 +37,24 @@ color: #B6C5D6;
     height: 80%;
     /* text-align: center; */
 }
+
+.drops{
+    background-color: aqua;
+    width: 120%;
+    margin-right: 20px;
+    padding: 12px;
+}
+.drop{
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
 @media (max-width:768px) {
     .logo{
-        width: 90px;
-        height: 70px ;
-        padding:12px;
+        width: 180px;
+        height: 90px ;
+        padding:15px;
         /* z-index: -1; */
     color: white;
     }

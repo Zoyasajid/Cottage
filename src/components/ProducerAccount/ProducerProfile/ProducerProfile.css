@@ -226,6 +226,8 @@ border-radius: 4px;
  text-align: center;
     border-radius: 3;
     color: white;
+    text-align: center;
+    /* margin-left: 12px; */
 
     }
     
@@ -304,7 +306,7 @@ height: 40px;
     color: aliceblue;
     /* background-color: aqua; */
     width: 90%;
-    margin: 4px;
+    /* margin: 4px; */
     height: 55px;
 
 }

@@ -8,11 +8,11 @@ import { DownOutlined } from '@ant-design/icons';
 import { MenuOutlined } from '@ant-design/icons';
 function ProducerNavbar() {
   const menu = (
-    <Menu>
-      <Menu.Item key="1">Profile</Menu.Item>
-      <Menu.Item key="2">Settings</Menu.Item>
+    <Menu className='drops'>
+      <Menu.Item key="1" className='drop'>Profile</Menu.Item>
+      <Menu.Item key="2"className='drop'>Settings</Menu.Item>
       <Menu.Divider />
-      <Menu.Item key="3">Logout</Menu.Item>
+      <Menu.Item key="3"className='drop'>Logout</Menu.Item>
     </Menu>
   );
 
@@ -25,7 +25,7 @@ function ProducerNavbar() {
         <a className="ant-dropdown-link icon" onClick={e => e.preventDefault()}>
           {/* Your profile icon, for example */}
           {/* <img src={profile} alt='profile' className='profile'/> */}
-          <MenuOutlined style={{ marginLeft: '8px' }} />
+          <MenuOutlined style={{ marginLeft: '18px' }} />
         </a>
       </Dropdown>
 
