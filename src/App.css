@@ -11,8 +11,5 @@ body{
   /* height: calc(100% - 20px) */
   /* margin: 10px; */
   /* background-color: aqua; */
-  /* overflow-y: hidden; */
+  overflow-y: scroll;
 }
-/* .all{
-  /* overflow-y: hidden; */
-/* }  */
