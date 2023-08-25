@@ -14,6 +14,9 @@ function SignupForm() {
     const signup=()=>{
         navigate('/signup')
     }
+    const gotoprofile=()=>{
+        navigate("/profile")
+    }
   return (
     <div>
     <div className='signUpContent'>
@@ -40,7 +43,7 @@ function SignupForm() {
                                         // value={password}
                                         // onChange={(e) => setPassword(e.target.value)}
                                     />
-                                    <button className='signbutton' type="submit">Sign In</button>
+                                    <button className='signbutton' onClick={gotoprofile} type="submit">Sign In</button>
                                 <p className='terms op'> <span onClick={chng}>Forgot Password?</span></p>
                                 {/* <p className='terms op'> <span onClick={chng}><Link to="/forgetpassword">Forgot Password?</Link></span></p> */}
                             <div className='connect'>

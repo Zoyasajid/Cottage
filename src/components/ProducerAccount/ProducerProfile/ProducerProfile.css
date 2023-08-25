@@ -1,0 +1,330 @@
+ .ProducerProfile{
+    height: auto; 
+    background:#1e6eca0d;
+}
+.producerprofilecard{
+    width: 280px;
+height: 360px;
+background-color: #768CA5;
+border-radius: 4px;
+}
+.producerProfileflex{
+    margin-left: 230px;
+    /* margin-right: px; */
+
+}
+.rightcard{
+    margin-left: 134px;
+
+}
+
+.btnpria{
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 3;
+    color: white;
+    background-color: #FB775A;
+    font-weight: 700;
+    
+}
+.pri{
+    width: 40px;
+height: 40px;
+/* margin-left: 23%; */
+
+flex-shrink: 0;
+background-color: transparent;
+color:grey;
+font-weight: 700;
+border: 1px solid grey;
+
+display: flex;
+justify-content: center;
+}
+.dashbtn{
+    width: 129px;
+height: 35px;
+/* background-color:#192E46; */
+border-radius: 4px;
+margin-top:3%;
+
+
+}
+.cardagain{
+    display: flex;
+    justify-content: space-between;
+}
+.cardflex p{
+    color:#192E46;
+}
+.cards2{
+    width: 98%;
+height:auto;
+/* background-color: aqua; */
+flex-shrink: 0;
+margin-top: 10px;
+margin-left: 10px;
+
+}
+.cardflex{
+
+font-size: 18px;
+/* height: 43%; */
+margin-top: 10px;
+padding-top: 10px;
+font-weight: 700;
+color: #768CA5;
+line-height: 25px;
+letter-spacing: 0.0.3em;
+text-align: left;
+
+}
+
+.profilecard{
+    height: auto;
+    text-align: center;
+    padding:10px;
+}
+.profilecard h3{
+    margin: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.dashbtn button{
+    background-color: #192E46;
+    margin: 8px;
+width: 100%;
+}
+.pen{
+    text-align: end;
+    width: 280px;
+}
+.profilecard p {
+font-size: 14px;
+font-weight: 450;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color: #768CA5;
+
+}
+.local{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    font-weight: 700;
+
+      
+}
+.profilecard button{
+    width: 194px;
+height: 40px;
+margin: 8px;
+margin-top: 15px;
+
+border-radius: 4px;
+}
+.active{
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: -0.01em;
+text-align: left;
+
+
+}
+.active span{
+    color: red;
+}
+.tag{
+    color: #192E46;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+.part2{
+    /* background-color: #FB775A; */
+    margin-left: -8%;
+}
+.part{
+    /* background-color: #FB775A; */
+    display: flex;
+    height: 41px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.Modalbtn{
+    width: 50%;
+    height: 44px;
+}
+.ant-modal-content{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+ color: #F6F8FA;
+ background-color:white;
+
+height: 70vh;
+
+
+}  
+
+
+  
+  
+  
+
+.cus .ant-modal-title {
+    text-align: center;
+    font-family: Poppins;
+ background-color: transparent;
+    margin-top: 46%;
+
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    
+    color: #192E46;
+  }
+
+  
+
+.ant-modal-footer {
+    margin-top: 20px;
+    display: flex;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+ 
+    .producerProfileflex{
+        margin-left: -21px;
+        margin-right: -42px;
+        /* margin:12px; */
+    }
+    .btnpria{
+        width: 340px;
+height: 39px;
+color: white;
+border-radius: 4px;
+ text-align: center;
+    border-radius: 3;
+    color: white;
+
+    }
+    
+    .cardflex{
+        display: block;
+        margin: 2px;
+        margin-bottom: 4px;
+        margin-top: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #768CA5;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    /* text-align: left; */
+    
+    }
+    .part{
+    /* background-color: #FB775A; */
+    height: 13vh;
+    display: block;
+    /* height: 33px; */
+    /* margin-bottom: 14px; */
+
+    }
+
+    
+    .pen{
+        text-align: end;
+        width: 100%;
+        margin-top: -25px;
+        margin-bottom: 15px;
+        /* display: flex; */
+        /* background-color: #FB775A; */
+        
+        margin-left:-9px;
+    }
+  
+    .rightcard {
+      margin-top: 0;
+      margin-left: -9px;
+      width: 100%;
+      /* background-color: aqua; */
+    }
+
+    .cards2{
+        width: 100%;
+    height: auto;
+    /* background-color: #FB775A; */
+    flex-shrink: 0;
+    margin-top: 10px;
+    /* display: flex; */
+    border-radius: 3px;
+    border: 1px solid grey;
+    text-align: center;
+    margin-left: 1px;
+
+    }
+
+.active{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #192E46;
+    /* background-color: #192E46; */
+    text-align: justify;
+height: 40px;
+    display: block;
+}
+.cardagain{
+    display: block;
+    margin: 2px;
+    margin-top: 15px;
+    /* background-color: #FB775A; */
+}
+
+.dashbtn {
+    color: aliceblue;
+    /* background-color: aqua; */
+    width: 90%;
+    margin: 4px;
+    height: 55px;
+
+}
+
+.part2{
+    /* background-color: #FB775A; */
+    margin-left: 2px;
+}
+.ant-modal-footer {
+    margin-top: 2px;
+    display: block;
+width: 90%;
+background-color: #768CA5;
+  }
+  .ant-modal-footer button{
+    background-color: #192E46;
+    width: 90%;
+    margin-top: 12px;
+
+  }
+  
+  }
+  
