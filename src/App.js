@@ -2,12 +2,7 @@ import './App.css';
 import Signup from './components/Signup';
 import SignupForm from './components/signupForm/SignupForm';
 import SignIn from './components/Signin/SignIn'
-// import Homepage3 from ".../components/homepage/homepage3/Homepage3"
-// import Homepage3 from "../src/components/homepage/homepage3/Homepage3"
-// import Homepage4 from '../src/components./homepage/Homepage4/Homepage4'
-// import Homepage5 from '../src/components/homepage/homepage5/Homepage5'
-// import Homepage6 from '../src/components/homepage/homepage6/Homepage6'
-// import Forgetpswd from './components/Signin/Forgetpswd/Forgetpswd';
+
 import {
   BrowserRouter,
   // RouterProvider,
