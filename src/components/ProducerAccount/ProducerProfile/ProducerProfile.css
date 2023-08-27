@@ -47,7 +47,7 @@ justify-content: center;
 height: 35px;
 /* background-color:#192E46; */
 border-radius: 4px;
-margin-top:3%;
+margin-top:8%;
 
 
 }
@@ -75,7 +75,7 @@ margin-top: 10px;
 padding-top: 10px;
 font-weight: 700;
 color: #768CA5;
-line-height: 25px;
+line-height: 30px;
 letter-spacing: 0.0.3em;
 text-align: left;
 
@@ -165,6 +165,7 @@ text-align: left;
 
 .Modalbtn{
     width: 50%;
+    /* background-color: #c2b1ad; */
     height: 44px;
 }
 .ant-modal-content{
@@ -223,10 +224,10 @@ height: 70vh;
 height: 39px;
 color: white;
 border-radius: 4px;
- text-align: center;
+ /* text-align: center; */
     border-radius: 3;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     /* margin-left: 12px; */
 
     }

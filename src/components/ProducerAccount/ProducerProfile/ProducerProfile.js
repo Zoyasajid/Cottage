@@ -135,12 +135,12 @@ Skip for Now          </Button>,
                     <div  className="cardagain">
                     <div className="cardflex">
                       <h5>NAME</h5>
-                      <p>Miami</p>
+                      <p>Los Angeles</p>
 
                     </div>
                     <div className="cardflex" >
                     <h5>DOMAIN</h5>
-                      <p>../uppercrust/miami</p>
+                      <p>../idealnutrition/losangeles</p>
                       </div>
                       <div className="dashbtn"><Button type="primary" className="dashbtn">
                         Dashboard  &gt;
@@ -150,12 +150,12 @@ Skip for Now          </Button>,
                     <div  className="cardagain">
                     <div className="cardflex">
                     <h5>NAME</h5>
-                      <p>Miami</p>
+                      <p>San Diego</p>
 
                     </div>
                     <div className="cardflex" >
                       <h5>DOMAIN</h5>
-                      <p>../uppercrust/miami</p>
+                      <p>../idealnutrition/losangeles</p>
                       </div>
                       <div className="dashbtn"><Button type="primary" className="dashbtn">
                         Dashboard  &gt;

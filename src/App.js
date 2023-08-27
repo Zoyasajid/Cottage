@@ -23,8 +23,8 @@ function App() {
       <Routes>
       {/* <Route path="/" element={<Forgetpswd/>}/> */}
 
-      <Route path="/profile" element={<ProducerProfile/>}/>
-      <Route path="/" element={<Signup/>}/>
+      <Route path="/" element={<ProducerProfile/>}/>
+      {/* <Route path="/" element={<Signup/>}/> */}
       <Route path="/forgetpassword" element={<Forgetpswd/>}/>
       <Route path="/verify" element={<Verify/>}/>
       {/* <Route path="/page2" element={<Homepage3/>}/>
