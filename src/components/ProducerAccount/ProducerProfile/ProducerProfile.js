@@ -42,6 +42,12 @@ function ProducerProfile() {
 
   const hideModal = () => {
     seteditProfile(false);
+    // console.log("close")
+  };
+
+  const hideModal2 = () => {
+    seteditProfile(false);
+    console.log("close")
   };
 
   const showModal = () => {
@@ -116,11 +122,7 @@ function ProducerProfile() {
                   customRequest={handleUpload}
                 >
                   <div style={{ marginBottom: 20 }}>
-                    {/* <img
-                src={imageSource}
-                alt="Profile"
-                className='editprofiledp'
-              /> */}
+              
                     <div className="editprofiledp">
                       <EditOutlined
                         style={{
@@ -173,7 +175,7 @@ function ProducerProfile() {
                   {/* <Button onClick={send} className='signbutton tel'>
 Save changes
 </Button>: */}
-                  <Button className="signbutton tel">
+                  <Button className="signbutton tel"  onClick={hideModal2}>
                     <h4 className="changes">save changes</h4>
                   </Button>
 
