@@ -69,8 +69,7 @@ const navigate = useNavigate('')
                                         placeholder="Last Name"
                                         value={lastName}
                                         onChange={(e) => setLastName(e.target.value)}
-                                    />
-                                    <input
+                                    />                                    <input
                                     className='email'
                                         type="email"
                                         placeholder="Email"

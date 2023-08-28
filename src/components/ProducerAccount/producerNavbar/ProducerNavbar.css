@@ -48,7 +48,18 @@ color: #B6C5D6;
     width: 100%;
     font-weight: 700;
     font-size: 18px;
+    /* display: flex; */
+    /* gap: 12px; */
+    /* justify-content: space-between; */
     
+}
+.profile{
+    width: 49.82758712768555px;
+height: 50.749061584472656px;
+top: 21.314453125px;
+left: 1486.390625px;
+/* z-index: 1; */
+
 }
 @media (max-width:768px) {
     .logo{
