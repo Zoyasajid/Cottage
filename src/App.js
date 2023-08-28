@@ -26,7 +26,7 @@ function App() {
 
       <Route path="/profile" element={<ProducerProfile/>}/>
       {/* <Route path="/editprofile" element={<EditProfile/>}/> */}
-      <Route path="/" element={<Signup/>}/>
+      {/* <Route path="/" element={<Signup/>}/> */}
       {/* <Route path="/forgetpassword" element={<Forgetpswd/>}/> */}
       <Route path="/verify" element={<Verify/>}/>
       {/* <Route path="/page2" element={<Homepage3/>}/>
