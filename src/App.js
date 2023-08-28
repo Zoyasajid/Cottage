@@ -24,8 +24,8 @@ function App() {
       <Routes>
       {/* <Route path="/" element={<Forgetpswd/>}/> */}
 
-      <Route path="/op" element={<ProducerProfile/>}/>
-      <Route path="/editprofile" element={<EditProfile/>}/>
+      <Route path="/profile" element={<ProducerProfile/>}/>
+      {/* <Route path="/editprofile" element={<EditProfile/>}/> */}
       <Route path="/" element={<Signup/>}/>
       <Route path="/forgetpassword" element={<Forgetpswd/>}/>
       <Route path="/verify" element={<Verify/>}/>

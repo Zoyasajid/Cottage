@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 import "./ProducerProfile.css";
-import { Card, Row, Col, Button, Modal,Form,Input, Upload,  message } from "antd";
+import {
+  Card,
+  Row,
+  Col,
+  Button,
+  Modal,
+  Form,
+  Input,
+  Upload,
+  message,
+} from "antd";
 
 import ProducerNavbar from "../producerNavbar/ProducerNavbar";
 import { EditOutlined, SettingOutlined } from "@ant-design/icons";
@@ -13,25 +23,26 @@ function ProducerProfile() {
   const [visible, setVisible] = useState(false);
   const [editProfile, seteditProfile] = useState(false);
   const [form] = Form.useForm();
-  const [instruction,setinstruction]= useState('')
+  const [instruction, setinstruction] = useState("");
 
-  const send=(e)=>{
-      e.preventDefault();
-      // setShow(true)
-      setinstruction("Lorem Ipsum is the standard filler text used in design throughout the world. It’s been the standards since the 1500’s and it’s time for an update.")
-  }
-  const handlecross=()=>{
-       setinstruction(false)
-  }
+  const send = (e) => {
+    e.preventDefault();
+    // setShow(true)
+    setinstruction(
+      "Lorem Ipsum is the standard filler text used in design throughout the world. It’s been the standards since the 1500’s and it’s time for an update."
+    );
+  };
+  const handlecross = () => {
+    setinstruction(false);
+  };
   const showModal2 = () => {
     seteditProfile(true);
-    console.log("set")
+    console.log("set");
   };
 
   const hideModal = () => {
     seteditProfile(false);
   };
-
 
   const showModal = () => {
     setVisible(true);
@@ -42,15 +53,15 @@ function ProducerProfile() {
   };
 
   const handleUpload = (info) => {
-    if (info.file.status === 'done') {
+    if (info.file.status === "done") {
       message.success(`${info.file.name} file uploaded successfully`);
-    } else if (info.file.status === 'error') {
+    } else if (info.file.status === "error") {
       message.error(`${info.file.name} file upload failed.`);
     }
   };
 
   const onFinish = (values) => {
-    console.log('Received values:', values);
+    console.log("Received values:", values);
     hideModal();
   };
   return (
@@ -61,19 +72,22 @@ function ProducerProfile() {
         className="ProducerProfile"
         style={{ padding: "40px", margin: "12px", background: "#4C68890D" }}
       >
-        <div className="producerProfileflex" >
+        <div className="producerProfileflex">
           <Row gutter={13}>
-
             <Col xs={24} sm={5}>
-              <Card 
-                title={<EditOutlined onClick={showModal2} style={{cursor:'pointer'}}/>
-                
-              }
-              
-              className=" pen"
-              type="inner"
-              // onClick={gotoeditprofile}
-              >
+            <Card
+            
+  title={
+     <div onClick={showModal2} style={{background:"grey" , cursor:"pointer"}}><EditOutlined/>lok</div>
+    
+      // onClick={showModal2}
+      // style={{ cursor: "pointer" }}
+    // />
+  }
+  className="pen"
+  type="inner"
+  // onClick={gotoeditprofile}
+>
                 <div className="profilecard">
                   <img src={imageSource} alt="imageSource" />
                   <h3 style={{ textAlign: "center" }}>Jonathan Snow</h3>
@@ -84,75 +98,107 @@ function ProducerProfile() {
               </Card>
             </Col>
             <Modal
-        // title="Edit Profile"
-        title={<div className="custom-modal-title">Edit Profile</div>}
-
-        open={editProfile}
-        onCancel={hideModal}
-        footer={null}
-        width={500}
-        height={100}
-        style={{
-      // background:'purple',
-          borderRadius: 4,
-        }}
-      >
-        <Form form={form} onFinish={onFinish}>
-          <Upload
-            name="profileImage"
-            showUploadList={false}
-            customRequest={handleUpload}
-          >
-            <div style={{ marginBottom: 20 }}>
-              {/* <img
+              // title="Edit Profile"
+              title={<div className="custom-modal-title">Edit Profile</div>}
+              open={editProfile}
+              onCancel={hideModal}
+              footer={null}
+              width={500}
+              height={100}
+              style={{
+                // background:'purple',
+                borderRadius: 4,
+              }}
+            >
+              <Form form={form} onFinish={onFinish}>
+                <Upload
+                  name="profileImage"
+                  showUploadList={false}
+                  customRequest={handleUpload}
+                >
+                  <div style={{ marginBottom: 20 }}>
+                    {/* <img
                 src={imageSource}
                 alt="Profile"
                 className='editprofiledp'
               /> */}
-                                <div className="editprofiledp"><EditOutlined style={{color:"white", fontSize:"2rem",textAlign:"center" ,marginTop:"30px"}}/></div>
+                    <div className="editprofiledp">
+                      <EditOutlined
+                        style={{
+                          color: "white",
+                          fontSize: "2rem",
+                          textAlign: "center",
+                          marginTop: "30px",
+                        }}
+                      />
+                    </div>
+                  </div>
+                </Upload>
+                <div>
+                  <div className="editprofileinput1 place">
+                    <div
+                      className="editprofilenae"
+                      style={{ textAlign: "start" }}
+                    >
+                      <label>FIRST NAME</label>
+                      <input type="text" placeholder="Jonathan" />
+                    </div>
+                    <div
+                      className="editprofilenae"
+                      style={{ textAlign: "start" }}
+                    >
+                      <label>LAST NAME</label>
+                      <input type="text " placeholder="Snow" />
+                    </div>
+                  </div>
+                  <div className="editprofileinput1 place">
+                    <div
+                      className="editprofilenae"
+                      style={{ textAlign: "start" }}
+                    >
+                      <label>PHONE NUMBER</label>
+                      <input type="text" placeholder="(319) 555-0115" />
+                    </div>
+                    <div
+                      className="editprofilenae"
+                      style={{ textAlign: "start" }}
+                    >
+                      <label>EMAIL ADDRESS </label>
+                      <input
+                        type="text "
+                        placeholder="jonathan.s45@gmail.com"
+                      />
+                    </div>
+                  </div>
 
-   
-            </div>
-          </Upload>
-          <div>
-<div className="editprofileinput1 place"> 
-<div  className="editprofilenae" style={{textAlign:'start'}}>
-<label>FIRST NAME</label>
-<input  type="text" placeholder="Jonathan"/>
-</div>
-<div className="editprofilenae"  style={{textAlign:'start'}}>
-  <label>LAST NAME</label>
-  <input type="text " placeholder="Snow"/>
-</div>
-</div>
-<div className="editprofileinput1 place"> 
-<div  className="editprofilenae" style={{textAlign:'start'}}>
-<label>PHONE NUMBER</label>
-<input type="text" placeholder="(319) 555-0115"/>
-</div>
-<div className="editprofilenae"  style={{textAlign:'start'}}>
-  <label>EMAIL ADDRESS </label>
-  <input type="text " placeholder="jonathan.s45@gmail.com"/>
-</div>
-</div>
-
-{/* <Button onClick={send} className='signbutton tel'>
+                  {/* <Button onClick={send} className='signbutton tel'>
 Save changes
 </Button>: */}
-<Button className="signbutton tel"><h4 className="changes">save changes</h4></Button>
+                  <Button className="signbutton tel">
+                    <h4 className="changes">save changes</h4>
+                  </Button>
 
-{instruction ? (
-                            <div className="instructionptag">
-                                <p >{instruction}</p>
-                                <Button onClick={handlecross} >Cancel</Button>
-                            </div>
-                        ) : (
-                        <h3 className="wheel" onClick={send}><SettingOutlined style={{ fontSize: '24px', marginRight: '8px', color: '#192E46' }} />Need help?</h3>
-                        )}
-          </div>
-        </Form>
-      </Modal>
-    
+                  {instruction ? (
+                    <div className="instructionptag">
+                      <p>{instruction}</p>
+                      <Button onClick={handlecross}>Cancel</Button>
+                    </div>
+                  ) : (
+                    <h3 className="wheel" onClick={send}>
+                      <SettingOutlined
+                        style={{
+                          fontSize: "24px",
+                          marginRight: "8px",
+                          color: "#192E46",
+                        }}
+                      />
+                      Need help?
+                    </h3>
+                  )}
+                </div>
+              </Form>
+            </Modal>
+
             <Col xs={29} sm={16} className="part2">
               <Card
                 title={
