@@ -75,14 +75,13 @@ function ProducerProfile() {
         <div className="producerProfileflex">
           <Row gutter={13}>
             <Col xs={24} sm={5}>
-            <Card
+            <Card onClick={showModal2}
             
   title={
-     <div onClick={showModal2} style={{background:"grey" , cursor:"pointer"}}><EditOutlined/>lok</div>
-    
+    <EditOutlined
       // onClick={showModal2}
-      // style={{ cursor: "pointer" }}
-    // />
+      style={{ cursor: "pointer" }}
+    />
   }
   className="pen"
   type="inner"
