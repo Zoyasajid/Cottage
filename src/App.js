@@ -2,7 +2,7 @@ import './App.css';
 import Signup from './components/Signup';
 import SignupForm from './components/signupForm/SignupForm';
 import SignIn from './components/Signin/SignIn'
-
+import Question from './components/signupForm/Verification/Question/Question';
 import {
   BrowserRouter,
   // RouterProvider,
@@ -21,7 +21,6 @@ function App() {
     <div>
   <BrowserRouter>
       <Routes>
-      {/* <Route path="/" element={<Forgetpswd/>}/> */}
 
       <Route path="/profile" element={<ProducerProfile/>}/>
       <Route path="/verify" element={<Verify/>}/>

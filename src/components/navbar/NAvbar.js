@@ -9,7 +9,7 @@ function NAvbar() {
 }
   return (
     <div className='navbar'>
-<img src={logo} alt='logo' className='logo'/>
+<img src={logo} alt='logo' className='logoo'/>
 <button onClick ={signup} className='navbtn'>Signup</button>
     </div>
   )

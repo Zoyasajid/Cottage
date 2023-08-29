@@ -1,11 +1,4 @@
-/* .navbar{
-    width: 100%;
-    height: 15vh;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 .navbar {
     position: fixed;
   
@@ -24,12 +17,13 @@ border: none;
     justify-content: space-between;
 
   }
-.logo{
-    width: 200px;
-    height: 122px ;
+.logoo{
+    width: 15%;
+    height: 111px ;
+    margin: 20px;
+    margin-top: 40px;
+    /* background-color: plum; */
     padding: 29px;
-    
-
 }
 .navbtn{
 
@@ -41,16 +35,22 @@ border: none;
     Left:1670px;
 
     border-radius:4px;
-    Border: 1px;
-    /* padding: 19px; */
+   border:1px solid #000000;
+/* color: #fff; */
+background-color: transparent;
+color:  #192E46;
+;
 
 }
 @media (max-width: 768px) {
-    .logo{
-        width: 150px;
-        height: 100px ;
-        padding: 26px;
-    
+    .logoo{
+        width: 220px;
+        height: 120px ;
+        padding: 30px;
+        margin: 10px;
+        margin-left: -15px;
+        margin-top: 30px;
+        
     }
     .navbtn{
 
@@ -60,11 +60,16 @@ border: none;
         height:46px;
         text-align: center;
         Left:1670px;
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
     
         border-radius:4px;
         Border: 1px;
+        color: none;
         font-weight: 700;
+        border:1px solid #000000;
+        /* color: #fff; */
+        background-color: transparent;
+        color:  #192E46;
         /* padding: 19px; */
     
     }
