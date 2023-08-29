@@ -18,7 +18,7 @@ function Verify() {
         <div className='forgetlogo'><img src={logo} alt='logo'/></div>
         <div className='forgetform'>
         
-    <div className='formforget part2'>
+    <div className='formforget part2 '>
     <h2>Verification Code</h2>
     <div className='forgetlist list2'>
     We emailed you a six-digit code to

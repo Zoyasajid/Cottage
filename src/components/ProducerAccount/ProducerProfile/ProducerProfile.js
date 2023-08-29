@@ -16,6 +16,8 @@ import ProducerNavbar from "../producerNavbar/ProducerNavbar";
 import { EditOutlined, SettingOutlined } from "@ant-design/icons";
 import imageSource from "../ProducerAccountPic/Group209.png";
 import { useNavigate } from "react-router-dom";
+import Slider from "../Slider/Slider";
+import AppSlider from "../Slider/Slider2";
 
 function ProducerProfile() {
   // const [profileImage, setProfileImage] = useState('../ProducerAccountPic/Group209.png');
@@ -200,7 +202,7 @@ Save changes
               </Form>
             </Modal>
 
-            <Col xs={29} sm={16} className="part2">
+            <Col xs={29} sm={16} className="part22">
               <Card
                 title={
                   <div className="part">
@@ -333,6 +335,7 @@ Save changes
           </Row>
         </div>
       </div>
+      {/* <AppSlider/> */}
     </div>
   );
 }

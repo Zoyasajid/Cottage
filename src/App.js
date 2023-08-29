@@ -20,21 +20,13 @@ function App() {
   return (
     <div>
   <BrowserRouter>
-      {/* <NAvbar/> */}
       <Routes>
       {/* <Route path="/" element={<Forgetpswd/>}/> */}
 
       <Route path="/profile" element={<ProducerProfile/>}/>
-      {/* <Route path="/editprofile" element={<EditProfile/>}/> */}
-      {/* <Route path="/" element={<Signup/>}/> */}
-      {/* <Route path="/forgetpassword" element={<Forgetpswd/>}/> */}
       <Route path="/verify" element={<Verify/>}/>
-      {/* <Route path="/page2" element={<Homepage3/>}/>
-      <Route path="/page3" element={<Homepage5/>}/>
-      <Route path="/page4" element={<Homepage6/>}/> */}
-
-        <Route path="/" element={<SignupForm/>}/>
-        {/* <Route path="/signin" element={<SignupForm/>}/> */}
+        <Route path="/signin" element={<SignupForm/>}/>
+        <Route path="/" element={<Signup/>}/>
         <Route path="/signup" element={<SignIn/>}/>
 
       </Routes>
