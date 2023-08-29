@@ -78,9 +78,9 @@ text-align: left;
         margin-right: 10px;
     }
     .list{
-        width: 100%;
-    height: 800px;
-    
+        width: 112%;
+        height: auto;
+        margin: 4px;
     }
     .homepage2text span{
         color: #FB775A;
