@@ -21,7 +21,7 @@ function App() {
     <div>
   <BrowserRouter>
       <Routes>
-
+<Route path="/question" element={<Question/>}/>
       <Route path="/profile" element={<ProducerProfile/>}/>
       <Route path="/verify" element={<Verify/>}/>
         <Route path="/signin" element={<SignupForm/>}/>

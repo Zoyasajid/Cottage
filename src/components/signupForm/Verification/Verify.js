@@ -1,7 +1,9 @@
 import React,{useState} from 'react'
 import './Verify.css'
+import { useNavigate } from 'react-router-dom'
 import logo from '../pic/LOGO (1).png'
 function Verify() {
+    const navigate = useNavigate("")
     const [instruction,setinstruction]= useState('')
 
     const send=(e)=>{
@@ -11,6 +13,9 @@ function Verify() {
     }
     const handlecross=()=>{
          setinstruction(false)
+    }
+    const askquestion=()=>{
+        navigate('/question')
     }
     return (
         <div className='forgetpswd'> 
@@ -28,7 +33,7 @@ Enter the code below to confirm your email address.
     </div>
     <div className='ib'>
     <input type='text' placeholder='Your one time six-digit code'/>
-    {/* <button onClick={send}>Verify Now</button> */}
+    
     {instruction ? (
                             <div>
                                 <button onClick={handlecross}>Cancel</button>
@@ -38,9 +43,8 @@ Enter the code below to confirm your email address.
                             <button onClick={send}>Send Instruction</button>
                         )}
     </div>
-    {/* <p>{instruction}</p> */}
 
-    <h5 className='verifyh5'>Question? <span>We are here to help</span></h5>
+    <h5 className='verifyh5'>Question? <span onClick={askquestion}>We are here to help</span></h5>
     </div>
 
         </div>
