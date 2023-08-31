@@ -11,7 +11,7 @@ import Dot from './Homepage5pic/radio-right(4).png'
 function Homepage5() {
   return (
     <>
-    <div className='SignupOne'>
+    <div className='SignupOne signupthree'>
     {/* <NAvbar/> */}
         <div className='SignupOneflex'>
           <div className='Dots'><img src={Dots} alt='Dots' className='dots'/>
@@ -22,9 +22,7 @@ function Homepage5() {
      <h3>Payments are handled securely by <span> Stripe</span></h3>
             </div>              
                 <img className="home" src={home} alt='ho' />
-            <div className='dot'>
-            <img src={Dot} alt='Dots' className='dot2' />
-</div>
+            
         </div>
     </div>
     </>

@@ -21,9 +21,7 @@ function Homepage4() {
 <div className='homepage2dots'>
     <img src={dots} alt='dots'/>
 </div>
-<div>
-    <img src={dot} alt='dots' className='homepage2dot'/>
-</div>
+
         </div>
         </div>
     </div>

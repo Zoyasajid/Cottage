@@ -51,8 +51,8 @@ const navigate = useNavigate('')
                             <div className='signloginBtns'>
                                 {/* <button className='signIn'>Sign In</button>
                                 <button className='signUps'>Sign Up</button> */}
-                                <button onClick={signin} className='signIn signInUP'>Sign In</button>
-                    <button onClick={signup} className='signUps signupin'> Sign Up</button>
+                                <button onClick={signin} className='signIn signInUP' style={{background:"white" ,border:"none" }}>Sign In</button>
+                    <button onClick={signup} className='signUps signupin' style={{background:"#FAFAFA" ,border:"1px solid #D4D7DD"}}> Sign Up</button>
                             </div>
                             <div className='feild'>
                                 <form onSubmit={handleSubmit}>

@@ -3,9 +3,9 @@ import './navbar.css';
 import { useNavigate} from 'react-router-dom';
 import logo from "../pic/Logofigma.png"
 function NAvbar() {
-  const navigate= useNavigate('')
+  // const navigate= useNavigate()
   const signup=()=>{
-    navigate('/signup')
+    // navigate('/signup')
 }
   return (
     <div className='navbar'>

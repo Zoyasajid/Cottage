@@ -206,7 +206,7 @@ Save changes
               <Card
                 title={
                   <div className="part">
-                    <div className="active">
+                    <div className="profileactive">
                       You have <span>2</span> active businesses
                     </div>
                     <div>

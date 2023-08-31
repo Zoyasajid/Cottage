@@ -16,11 +16,15 @@ import Verify from './components/signupForm/Verification/Verify';
 import ProducerNavbar from './components/ProducerAccount/producerNavbar/ProducerNavbar';
 import ProducerProfile from './components/ProducerAccount/ProducerProfile/ProducerProfile';
 import EditProfile from './components/ProducerAccount/edit-profile/EditProfile' 
+import Footer from './components/ProducerAccount/Footer/Footer';
+import LandingPagemain from './Landingpages/LandingPagemain';
 function App() {
   return (
     <div>
-  <BrowserRouter>
+      <LandingPagemain/>
+  {/* <BrowserRouter>
       <Routes>
+
 <Route path="/question" element={<Question/>}/>
       <Route path="/profile" element={<ProducerProfile/>}/>
       <Route path="/verify" element={<Verify/>}/>
@@ -29,8 +33,7 @@ function App() {
         <Route path="/signup" element={<SignIn/>}/>
 
       </Routes>
-      </BrowserRouter>
-    {/* <Signup/> */}
+      </BrowserRouter> */}
     </div>
   );
 }

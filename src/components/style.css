@@ -1,0 +1,39 @@
+/* styles.css
+.react-fullpage-navigation-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-fullpage-navigation-dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.react-fullpage-navigation-dot.active {
+  background-color: blue;
+} */
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  height: 4px;
+  width: 4px;
+  border: 0;
+  background: #F37357;
+
+  left: 99%;
+  margin: -2px 0 0 -2px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+.fp-warning, .fp-watermark{
+  display: none;
+}

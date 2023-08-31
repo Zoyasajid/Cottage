@@ -119,7 +119,7 @@ text-align: center;
         width: 100%;
         margin-left:2px;
    margin-right: 0px;
-    margin-top:99px;
+    margin-top:237px;
     }
     .text h2{
     color: #192E46;
@@ -128,7 +128,7 @@ text-align: center;
     text-align:start;
     Line-height:46px;
     text-align: center;
-    }
+    margin-top: 7px;    }
     .text p{
     color: #4C6889;
     font-size: 18px;
@@ -188,5 +188,8 @@ text-align: center;
     }
     .dot{
         display: none;
+    }
+    .signuponetwo{
+        background-color: #4C6889;
     }
 }

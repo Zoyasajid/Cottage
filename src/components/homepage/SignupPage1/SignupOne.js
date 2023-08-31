@@ -26,9 +26,7 @@ function SignupOne() {
             {/* <div className='pic-dot'> */}
               
                 <img className="home" src={home} alt='ho' />
-            <div className='dot'>
-            <img src={Dot} alt='Dots' className='dot2' />
-</div>
+
 {/* </div> */}
 
         </div>

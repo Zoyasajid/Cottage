@@ -1,17 +1,16 @@
-// import './homepage3.css'
+import './homepage3.css'
 
 // import './SignOne.css'
 import NAvbar from "../../navbar/NAvbar"
 import home from "./homepage3pic/homepage_3.png"
 import Dots from "../../pic/Group211.png"
-import Dot from './homepage3pic/radio-right(2).png'
 // import Dot from ""
 // import Dot from "../pic/radio-right.png"
 
 function Homepage3() {
   return (
     <>
-    <div className='SignupOne'>
+    <div className='SignupOne' id='signuponetwo'>
     {/* <NAvbar/> */}
         <div className='SignupOneflex'>
           <div className='Dots'><img src={Dots} alt='Dots' className='dots'/>
@@ -25,9 +24,7 @@ function Homepage3() {
             {/* <div className='pic-dot'> */}
               
                 <img className="home" src={home} alt='ho' />
-            <div className='dot'>
-            <img src={Dot} alt='Dots' className='dot2' />
-</div>
+    
 {/* </div> */}
 
         </div>

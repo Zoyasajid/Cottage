@@ -132,7 +132,7 @@ margin-top: 15px;
 
 border-radius: 4px;
 }
-.active{
+.profileactive{
 font-size: 22px;
 font-weight: 600;
 line-height: 33px;
@@ -408,7 +408,7 @@ border-radius: 4px;
 
     }
 
-.active{
+.profileactive{
     font-size: 20px;
     margin-top: 10px;
     color: #192E46;

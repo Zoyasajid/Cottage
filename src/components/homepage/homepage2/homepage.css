@@ -56,8 +56,17 @@ text-align: left;
 }
 @media (max-width:760px){
     .homepage2{
-        height: auto;
-    }
+            /* background-image: url("./pics/bg\ \(2\).png"); */
+            background-color: #FB775A;
+            width: 100%;
+            background-image: url('./pics/bg\ \(2\).png');
+            height:100vh;
+            background-position: center;
+            margin-top: 150px;
+        
+            background-size: cover;
+        
+           }
     .homepageflex{
         display: flex;
         flex-wrap: wrap-reverse;
@@ -79,7 +88,7 @@ text-align: left;
     }
     .list{
         width: 112%;
-        height: auto;
+        height: 97%;
         margin: 4px;
     }
     .homepage2text span{
@@ -87,7 +96,7 @@ text-align: left;
         font-weight: 700;
     }
     .homepage2text{
-        margin-top: 20px;
+        margin-top: 4px;
         margin-left: 1px;
         /* align-items: center; */
         text-align: center;
@@ -97,6 +106,7 @@ text-align: left;
         font-weight: 700;
         line-height: 56px;
         text-align: center;
+        margin-top: 9px;
         color: #192E46;
         }
         .homepage2text p{

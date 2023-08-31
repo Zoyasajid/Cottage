@@ -16,7 +16,6 @@ function Homepage6() {
     <div className='Homepage6pic'><img src={pic} alt='pic'/></div>
     
     </div>
-    <div className='Homepage6pic2'><img src={pic2} alt='pic'/></div>
     </div>
     </div>
     </>

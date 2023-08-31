@@ -1,0 +1,103 @@
+.footermain{
+    width: 100%;
+    height: auto;
+}
+.Footer{
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footermaintwo{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    margin-top: 30px;
+    /* padding: 20px; */
+}
+.footercopyright{
+    /* font-family: Poppins; */
+font-size: 14px;
+padding-left: 7.5%;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #AEBDCF;
+}
+.footerlogopic{
+    width: 50px;
+}
+.Footer h4{
+    color: #AEBDCF;
+font-size: 13px;
+font-weight: 600;
+line-height: 25px;
+
+
+}
+.footericon{
+    padding-right:8% ;
+    color: #AEBDCF;
+}
+@media (max-width:768px) {
+    .Footer{
+        width: 100%;
+        display: flex;
+        text-align: start;
+        padding: 40px;
+        padding-top: 40px;
+       
+    
+    }
+    .footermaintwo{
+        display:flex;
+        /* justify-content: space-between; */
+        /* align-items: ; */
+        /* justify-content: ; */
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* background-color: aqua; */
+        margin-top: 30px;
+        /* padding: 20px; */
+    }
+    .footercopyright{
+    font-size: 14px;
+    padding-left: 0;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-top: 15px;
+    text-align: left;
+    color: #AEBDCF;
+    }
+    .footerlogo{
+        width: 100%;
+        text-align: center;
+        /* font-size: 50px; */
+    }
+    .footerlogopic{
+        /* font-size: 52px; */
+        width: 19%;
+        margin: 20px;
+    }
+    .footersec{
+        width: 50%;
+        /* background-color: brown; */
+    }
+    .footerthird{
+        width: 50%;
+        /* background-color: aqua; */
+    }
+    .footerfour{
+        margin-top: 20px;
+        width: 100%;
+        /* background-color: blue; */
+        text-align: left;
+    }
+}

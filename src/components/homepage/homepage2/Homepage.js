@@ -3,7 +3,6 @@ import '../homepage2/homepage.css'
 import NAvbar from '../../navbar/NAvbar'
 import list from "./pics/homepage_2.png"
 import dots from "./pics/Group211.png"
-import dot from "./pics/radio-right(1).png"
 function Homepage() {
   return (
     <div>
@@ -20,9 +19,7 @@ function Homepage() {
 <div className='homepage2dots'>
     <img src={dots} alt='dots'/>
 </div>
-<div>
-    <img src={dot} alt='dots' className='homepage2dot'/>
-</div>
+
         </div>
         </div>
     </div>

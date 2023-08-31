@@ -4,6 +4,7 @@ import "./Question.css";
 // import logo from '../pic/LOGO (1).png'
 import logo from "../../pic/LOGO (1).png";
 import NAvbar from "../../../navbar/NAvbar";
+import Footer from "../../../ProducerAccount/Footer/Footer";
 function Question() {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -25,7 +26,8 @@ function Question() {
     console.log("Form data:", formData);
   };
   return (
-    <div className="forgetpswd questionspage">
+    <>
+    <div className="forgetpswd questionspage1">
       <NAvbar />
       <div className="forget questionsquestion">
         <div className="forgetlogo">
@@ -122,6 +124,9 @@ function Question() {
         </div>
       </div>
     </div>
+      <Footer/>
+
+    </>
   );
 }
 
