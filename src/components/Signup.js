@@ -139,7 +139,7 @@ class Signup extends React.Component {
 <NAvbar/>
      <ReactFullpage 
         navigation={true}
-        scrollOverflow={true}
+        scrollOverflow={false}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
