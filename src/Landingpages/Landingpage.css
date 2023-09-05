@@ -5,66 +5,101 @@
     background-attachment: fixed; 
     background-color: orangered; 
     width: 100%;
+    flex-wrap: nowrap;
     height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    text-align: center;
+
+
+
+  }
+
+  
+  .dott{
+  
+    
+    padding-left: -30px;
 
   }
   .landingpic{
-    height: 100%;
-    margin-left: -151px;
-    /* background-color: aqua; */
-
+    padding-top: 22px;
+    width: 100%;
+    /* height: 800px; */
   }
   .landingpagedots{
-    width: 90%;
+    width: 40%;
     padding-top: 10px;
-    margin-left: -45px;
     margin-top: 51px;
-/* padding: 12px; */
-    /* background-color: #4C6889; */
+
   }
   .datavaltext{
-width:37%;
-margin-left: -21px;
+    /* height: 412px; */
+    /* width: 470px; */
+/* background-color: #192E46; */
+    /* margin-left:90px; */
+    /* margin-right: -44px; */
+/* margin-top:90px; */
+/* background-color: #bbc0c7; */
+width: 55%;
+height: auto;
 }
 .datavaltext h3{
-        font-size: 44px;
-        font-weight: 800;
-        line-height: 56px;
-        text-align: left;
-        color: #192E46;
-        
+color: #192E46;
+font-weight: 800;
+font-Size:59px;
+text-align: start;
+
+Line-height:58px
 }
-.datavaltext p{
-    font-size: 14px;
-margin-top: 40px;
+.landingtextp{
 color: #4C6889;
-font-weight: 600;
-line-height: 29px;
-letter-spacing: 0em;
+/* #4C6889 */
+font-size: 18px;
+font-weight: 400;
+margin-top: 50px;
+line-height: 18px;
+letter-spacing: 0.02rem;
+line-height: 22px;
 text-align: left;
-
 }
-
+.section:nth-child(odd) .item{
+  flex-direction: row-reverse;
+}
 
 @media (max-width: 768px) {
     .item{
-        display: inline-block;
+    
         align-items: center;
         height: 100%;
+        justify-content:space-around;
         margin-top: -28px;
 
+    }
+    .section{
+         }
+    .section:nth-child(even) .item{
+      flex-direction: column-reverse;
+    }
+    .section:nth-child(odd) .item{
+      flex-direction: column-reverse;
     }
     .datavaltext{
         width:100%;
         margin-left: 0px;
-        }
+        margin-top: 59%;
+
+                }
         .landingpic{
             width: 100%;
             margin-left: 1px;
-            margin-top: 85px;
+            margin-top: -8px;
+                }
+          .landingpic img{
+            margin-top: -8px;
+
           }
           .landingpagedots{
             width: 90%;
@@ -72,14 +107,26 @@ text-align: left;
             margin-left: 21px;
             margin-top: 1px;
         display: none;
-            /* background-color: #4C6889; */
           }
           .datavaltext h3{
-            font-size: 34px;
+            font-size: 39px;
             font-weight: 800;
-            line-height: 56px;
-            text-align: left;
+            line-height: 45px;
+            text-align: center;
             color: #192E46;
+            margin-top: -8px;
             
     }
+  
+    .landingtextp{
+      color: #4C6889;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 10px;
+      line-height: 20px;
+      letter-spacing: 0.02rem;
+      line-height: 22px;
+      text-align: center;
+      }
+      
 }

@@ -13,6 +13,7 @@ const navigate = useNavigate('')
     const [password, setPassword] = useState('');
     const [address, setAddress] = useState('');
     const [visible, setVisible] = useState(false);
+    const [errorMessage, setErrorMessage] = useState(false);
 
     const showModal = () => {
       setVisible(true);
@@ -27,8 +28,17 @@ const navigate = useNavigate('')
     };
 
     const verify=()=>{
-        navigate('/verify')
-    }
+        console.log("formData", {firstName,lastName,email,password,address})
+        if (password.length !== 8) {
+            setErrorMessage(true)
+            setErrorMessage('Password must be exactly 8 characters long.');
+            return; 
+        }
+        else{
+            setErrorMessage(false)
+            // navigate('/verify')
+          }
+          }
     const signin=()=>{
         navigate('/signin')
     }
@@ -36,14 +46,23 @@ const navigate = useNavigate('')
         navigate('/signup')
     }
     const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form submitted:', { firstName, lastName, email, password });
+        // e.preventDefault();
+        // console.log('Form submitted:', { firstName, lastName, email, password });
+        // function handleSubmit(e) {
+    e.preventDefault();
+  
+   
+    console.log("formData", {email,password})
 
-    };
+}
+  
+
+    // };
 
     return (
         <div>
-            <div className='signUpContent'>
+
+            <div className='signUpContent' >
                 <div className='signUpForm'>
                     <img className='signLogo' src={Login} alt='lohi'/>
                     <div className='formDiv'>
@@ -55,7 +74,7 @@ const navigate = useNavigate('')
                     <button onClick={signup} className='signUps signupin' style={{background:"#FAFAFA" ,border:"1px solid #D4D7DD"}}> Sign Up</button>
                             </div>
                             <div className='feild'>
-                                <form onSubmit={handleSubmit}>
+                                <form onSubmit={(e) => handleSubmit(e)}>
                                     <input
                                         className='name'
                                         type="text"
@@ -92,6 +111,10 @@ const navigate = useNavigate('')
                                     />
                                     <button className='signbutton' type="submit" onClick={verify}>Sign Up Now</button>
                                 </form>
+                                {errorMessage && (
+            <div className="alert alert-danger mt-3" style={{color:"red"}}>
+              {errorMessage}
+            </div>)}
                                 <p className='terms'>By continuing, I agree to Cottage’s <span onClick={showModal}>Terms & Conditions.</span></p>
                             <div className='connect'>
                                 <p className='line'></p>

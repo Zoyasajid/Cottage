@@ -207,7 +207,7 @@ Save changes
                 title={
                   <div className="part">
                     <div className="profileactive">
-                      You have <span>2</span> active businesses
+                      You have <span style={{color:"red"}}>2</span> active businesses
                     </div>
                     <div>
                       <Button

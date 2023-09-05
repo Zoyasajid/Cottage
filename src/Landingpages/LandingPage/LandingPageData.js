@@ -5,7 +5,11 @@ const Data=[
         description:"Cottage will help you reach more customers and simplify managing your site, your menus, and your orders, letting you focus on delivering great food.",
         // image:"./Landingpagepic/homepage_1.png"
         image: require("../Landingpagepic/homepage_1.png"),
-    },
+        button:"GET STARTED",
+        button2:" STARTED",
+        // bgclr:"red"
+    }, 
+    
     {
         Id:"2",
         title:"Offer your menu the way you want",
